@@ -1,2 +1,25 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the questions container */
+.questions {
+  background-color: #f8fffe;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+/* Styling for individual questions */
+.question {
+  border-left: 8px solid green;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
 
 /* Your CSS Code here. */
